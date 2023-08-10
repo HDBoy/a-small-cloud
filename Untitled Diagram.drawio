@@ -1,32 +1,43 @@
-<mxfile host="app.diagrams.net" modified="2023-08-07T13:03:41.697Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="vIrMsvGMb5aAHCkWDGPi" version="21.6.6" type="github">
+<mxfile host="app.diagrams.net" modified="2023-08-10T01:02:24.254Z" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/115.0.0.0 Safari/537.36" etag="yMhkvYHyAWvksrfO9H9U" version="21.6.6" type="github" pages="2">
   <diagram name="Page-1" id="zuszLwFf8kK9XqThAfdi">
     <mxGraphModel dx="794" dy="424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="9-FFxtgB4ubAdGaEQEZj-1" value="&lt;span style=&quot;background-color: initial;&quot;&gt;kvm_vcpu_thread_fn&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;horizontal=1;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="9-FFxtgB4ubAdGaEQEZj-1" value="&lt;span style=&quot;background-color: initial;&quot;&gt;kvm_vcpu_thread_fn&lt;/span&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=center;horizontal=1;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="180" y="110" width="430" height="250" as="geometry" />
         </mxCell>
-        <mxCell id="9-FFxtgB4ubAdGaEQEZj-2" value="kvm_cpu_exec" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" vertex="1" parent="1">
+        <mxCell id="9-FFxtgB4ubAdGaEQEZj-2" value="kvm_cpu_exec" style="rounded=1;whiteSpace=wrap;html=1;align=center;verticalAlign=top;" parent="1" vertex="1">
           <mxGeometry x="210" y="140" width="370" height="200" as="geometry" />
         </mxCell>
-        <mxCell id="9-FFxtgB4ubAdGaEQEZj-3" value="kvm_arch_vcpu_ioctl_run" style="rounded=1;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=top;align=center;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+        <mxCell id="9-FFxtgB4ubAdGaEQEZj-3" value="kvm_arch_vcpu_ioctl_run" style="rounded=1;whiteSpace=wrap;html=1;horizontal=1;verticalAlign=top;align=center;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
           <mxGeometry x="240" y="180" width="310" height="125" as="geometry" />
         </mxCell>
-        <mxCell id="9-FFxtgB4ubAdGaEQEZj-4" value="__kvm_vcpu_run_vhe" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+        <mxCell id="9-FFxtgB4ubAdGaEQEZj-4" value="__kvm_vcpu_run_vhe" style="rounded=1;whiteSpace=wrap;html=1;verticalAlign=top;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
           <mxGeometry x="270" y="220" width="250" height="60" as="geometry" />
         </mxCell>
-        <mxCell id="9-FFxtgB4ubAdGaEQEZj-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="9-FFxtgB4ubAdGaEQEZj-5" value="" style="rounded=1;whiteSpace=wrap;html=1;" parent="1" vertex="1">
           <mxGeometry x="630" y="170" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="9-FFxtgB4ubAdGaEQEZj-6" value="用户态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" vertex="1" parent="1">
+        <mxCell id="9-FFxtgB4ubAdGaEQEZj-6" value="用户态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;" parent="1" vertex="1">
           <mxGeometry x="660" y="165" width="60" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="9-FFxtgB4ubAdGaEQEZj-7" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" vertex="1" parent="1">
+        <mxCell id="9-FFxtgB4ubAdGaEQEZj-7" value="" style="rounded=1;whiteSpace=wrap;html=1;dashed=1;dashPattern=8 8;" parent="1" vertex="1">
           <mxGeometry x="630" y="200" width="40" height="20" as="geometry" />
         </mxCell>
-        <mxCell id="9-FFxtgB4ubAdGaEQEZj-8" value="内核态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;dashed=1;dashPattern=12 12;" vertex="1" parent="1">
+        <mxCell id="9-FFxtgB4ubAdGaEQEZj-8" value="内核态" style="text;html=1;align=center;verticalAlign=middle;resizable=0;points=[];autosize=1;strokeColor=none;fillColor=none;dashed=1;dashPattern=12 12;" parent="1" vertex="1">
           <mxGeometry x="660" y="195" width="60" height="30" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+  <diagram id="j3-DwG2POdbizoOCvqK-" name="第 2 页">
+    <mxGraphModel dx="794" dy="424" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="Fx4I7Sa5HXXDlHgbg-gV-1" value="qemu_init" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="130" y="150" width="120" height="60" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
